@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="css/style.css">
+    <link rel= "javascript" href="js/js">
+    <title>FUNCTION</title>
+</head>
+<body>
+       <section>
+        <div class = "converter">
+            <h1> Toko Online </h1>
+        </div>
+        <div class = "answer">
+            <input type ="text" id="Klien" class="input" placeholder="Nama">
+            <input type ="text" id="Produk" class="input" placeholder="Produk Belanja">
+            <input type ="button" id="details" class="input" value="Simpan">
+        </div>
+        <script src="js/satu.js"></script>
+    </section>
+   
+    <section>
+        <div class = "converter">       
+             <h1> Temperature </h1>
+        </div>
+        <div class ="answer">
+            <input type="number" id="suhu" class="input" 
+            placeholder="suhu" oninput = "convertToFar()">
+
+            <input type="number" id="fahrenheit" class="input"
+             placeholder="fahrenheit" oninput = "convertToCel()">
+        </div>
+        <script src="js/dua.js"></script>
+    </section>
+
+    <section>
+        <div class = "converter">       
+            <h1> Hitung Umur Kucing Dalam Usia Manusia</h1>
+       </div>
+        <div class ="jawab">
+        <input type="number" id="years" class="input" placeholder="umur"/>
+        <input type="button" onclick="hitungUsiaKucing(angka)" value="Simpan" class="input">
+        </div>
+        <script src="js/tiga.js"></script>
+    </section>
+
+ 
+    <section>
+        <div class="converter">
+            <h1> FORMAT huruf kecil</h1>
+        </div>    
+        <div class="jawab">
+            <input type="text" class="input" onkeyup="" id="simpanID">
+        </div>
+        <script src="js/empat.js"></script>
+        </section>
+
+     <div class="footer">
+     <p> Tugas Function : Sartika Purnamasari </p>
+	 </div>
+	 
+</body>
+</html>
